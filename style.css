@@ -1,0 +1,48 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.leftBox{
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    top: 74px;
+    left: 30px;
+}
+.leftBox img{
+    margin: 50px;
+    width: 600px;
+}
+.rightBox{
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+}
+.rightBox h1{
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.rightBox h1 span{
+    color: springgreen;
+}
+.rightBox p{
+    font-size: 17px;
+    word-spacing: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(148, 144, 144);
+}
+.btn{
+    width: 400px;
+    padding: 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: text;
+}
+.rightBox .btn span{
+    color: springgreen;
+}
